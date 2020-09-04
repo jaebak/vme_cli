@@ -4,7 +4,7 @@ odmbdev: https://github.com/odmb/odmbdev
 
 emulib: https://gitlab.cern.ch/CMS-Emu/CERN/TriDAS/-/blob/master/emu/emuDCS/PeripheralCore/include/emu/pc/VMEController.h
 
-Do ./compile.sh to make vme_cli.
+Do ```make``` to make vme_cli.
 
 Below is an example command
 
