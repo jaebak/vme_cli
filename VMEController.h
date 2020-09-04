@@ -352,6 +352,7 @@ public:
   int clear_packets();
   int LeftToRead();
   int NoWriteToEther;
+  int vcc_read_command(int code, int n_words, unsigned short *readback);
    //
 private:
   bool print_VME_commands;
@@ -420,7 +421,6 @@ private:
   void set_VME_mode();
   void get_macaddr(int port);
   void setuse();
-  int vcc_read_command(int code, int n_words, unsigned short *readback);
   int vcc_write_command(int code, int n_words, unsigned short *writedata);
   int vcc_write_command(int code);
   //
